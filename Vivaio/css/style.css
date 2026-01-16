@@ -57,6 +57,8 @@ section{
     background-color: #656d4a;
     border-radius: 40px;
     border: 2px solid #283618;
+    height: 60vh;
+    overflow: auto;
 }
 
 footer{
@@ -69,12 +71,35 @@ footer{
     color: #b6ad90;
 }
 
+li{
+    margin: 10px;
+    padding: 20px;
+    border: #333d29 2px solid;
+    border-radius: 20px;
+    background-color:#414833 ;
+}
+
+a{
+    width: 400px;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #606c38;
+    color: #ffffff;
+    border: solid #283618 2px;
+    text-align: center;    
+}
+
+ 
+
 a:link{
     color: #fefae0;
+    text-decoration: none;
 }
 
 a:visited{
     color: #fefae0;
+    text-decoration: none;
 }
 
 .backgroundhomepage{
@@ -89,4 +114,12 @@ a:visited{
     border-radius: 20px;
     aspect-ratio: 1;
 
+}
+
+.secimgsection{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    aspect-ratio: 1;
+    margin-right: 10px;
 }

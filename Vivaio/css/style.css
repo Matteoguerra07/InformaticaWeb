@@ -1,4 +1,5 @@
-header{
+
+.homepageheader{
     background-color: #dda15e;
     padding : 20px;
     font-size: 40px;
@@ -14,12 +15,13 @@ header{
     width: auto;
 }
 
-body {
+.styledbody {
     margin: 0px;
     background-color: #c2c5aa;
 }
 
-nav{
+
+.navbar{
     display: flex;
     justify-content: space-evenly;
     width: auto;
@@ -27,7 +29,8 @@ nav{
     background-color: #fefae0;
 }
 
-button{
+
+.greenbutton{
     width: 400px;
     height: 40px;
     font-size: 20px;
@@ -36,8 +39,7 @@ button{
     color: #ffffff;
     border: solid #283618 2px;
 }
-
-button:hover{
+.greenbutton:hover{
     width: 400px;
     height: 40px;
     font-size: 20px;
@@ -47,8 +49,7 @@ button:hover{
     border: solid #283618 2px;
 }
 
-
-section{
+.pagesection{
     margin: 37px;
     padding: 40px;
     width: 30%;
@@ -61,17 +62,19 @@ section{
     overflow: auto;
 }
 
-footer{
+
+.greenfooter{
     background-color: #333d29;
     padding: 8px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    
+
     color: #b6ad90;
 }
 
-li{
+
+.greenlist{
     margin: 10px;
     padding: 20px;
     border: #333d29 2px solid;
@@ -79,7 +82,7 @@ li{
     background-color:#414833 ;
 }
 
-a{
+.greenboxhypertext{
     width: 400px;
     display: inline-block;
     font-size: 25px;
@@ -90,16 +93,25 @@ a{
     text-align: center;    
 }
 
+.greenboxhypertext:link{
+    color: #fefae0;
+    text-decoration: none;
+}
  
-
-a:link{
+.greenboxhypertext:visited{
     color: #fefae0;
     text-decoration: none;
 }
 
-a:visited{
-    color: #fefae0;
-    text-decoration: none;
+.greenboxhypertext:hover{
+    width: 400px;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #606c38;
+    color: #ffffff;
+    border: solid #283618 2px;
+    text-align: center;    
 }
 
 .backgroundhomepage{

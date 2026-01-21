@@ -29,26 +29,6 @@
     background-color: #fefae0;
 }
 
-
-.greenbutton{
-    width: 400px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 20px;
-    background-color: #606c38;
-    color: #ffffff;
-    border: solid #283618 2px;
-}
-.greenbutton:hover{
-    width: 400px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 20px;
-    background-color: #414833;
-    color: #ffffff;
-    border: solid #283618 2px;
-}
-
 .pagesection{
     margin: 37px;
     padding: 40px;
@@ -60,6 +40,13 @@
     border: 2px solid #283618;
     height: 60vh;
     overflow: auto;
+}
+
+.list-style{
+    display: flex;
+    height: fit-content;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
 }
 
 
@@ -81,6 +68,39 @@
     border-radius: 20px;
     background-color:#414833 ;
 }
+
+.smallbox-link{
+    width: 150px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #606c38;
+    color: #ffffff;
+    border: solid #283618 2px;
+    text-align: center; 
+}
+
+.smallbox-link:link{
+    color: #fefae0;
+    text-decoration: none;
+}
+
+.smallbox-link:hover{
+    width: 150px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #606c38;
+    color: #ffffff;
+    border: solid #283618 2px;
+    text-align: center; 
+}
+
+.smallbox-link:visited{
+    color: #fefae0;
+    text-decoration: none;
+}
+
 
 .greenboxhypertext{
     width: 400px;
@@ -108,7 +128,7 @@
     display: inline-block;
     font-size: 25px;
     border-radius: 20px;
-    background-color: #606c38;
+    background-color: #4b552c;
     color: #ffffff;
     border: solid #283618 2px;
     text-align: center;    
@@ -134,4 +154,8 @@
     border-radius: 20px;
     aspect-ratio: 1;
     margin-right: 10px;
+}
+
+.subtitle-plantsection{
+    margin: 2px;
 }

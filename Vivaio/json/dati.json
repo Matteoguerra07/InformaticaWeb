@@ -2,19 +2,23 @@
     "alberi": [
         {
             "nome": "Quercia",
-            "descrizione": "Albero maestoso e longevo, simbolo di forza e stabilità. Ha una chioma ampia e foglie lobate; le sue ghiande sono una fonte di cibo per molti animali."
+            "descrizione": "Albero maestoso e longevo, simbolo di forza e stabilità. Ha una chioma ampia e foglie lobate; le sue ghiande sono una fonte di cibo per molti animali.",
+            "path": "img/page2/PG2-AL1.jpg"
         },
         {
             "nome": "Pino",
-            "descrizione": "Sempreverde slanciato, riconoscibile per gli aghi e le pigne. Resiste bene al freddo e cresce spesso in montagna o lungo le coste."
+            "descrizione": "Sempreverde slanciato, riconoscibile per gli aghi e le pigne. Resiste bene al freddo e cresce spesso in montagna o lungo le coste.",
+            "path": "img/page2/PG2-AL1.jpg"
         },
         {
             "nome": "Salice Piangente",
-            "descrizione": "Albero elegante con rami lunghi e ricadenti verso il basso. Ama l’acqua e si trova spesso vicino a fiumi e laghi; trasmette un senso di calma e malinconia."
+            "descrizione": "Albero elegante con rami lunghi e ricadenti verso il basso. Ama l’acqua e si trova spesso vicino a fiumi e laghi; trasmette un senso di calma e malinconia.",
+            "path": "img/page2/PG2-AL1.jpg"
         },
         {
             "nome": "Ulivo",
-            "descrizione": "Albero mediterraneo dalla crescita lenta e dal tronco nodoso. Simbolo di pace e saggezza, produce olive da cui si ricava l’olio."
+            "descrizione": "Albero mediterraneo dalla crescita lenta e dal tronco nodoso. Simbolo di pace e saggezza, produce olive da cui si ricava l’olio.",
+            "path": "img/page2/PG2-AL1.jpg"
         }
     ]
 }
